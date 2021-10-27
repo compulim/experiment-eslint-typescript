@@ -1,0 +1,26 @@
+{
+  "name": "experiment-eslint-typescript",
+  "version": "0.0.0-0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "eslint": "eslint src",
+    "eslint:ppux": "eslint src -f visualstudio --ext .tsx,.ts --cache --resolve-plugins-relative-to . --ignore-pattern *.d.ts --report-unused-disable-directives --rulesdir ."
+  },
+  "author": "William Wong (https://github.com/compulim)",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react": "16.9.9",
+    "@typescript-eslint/eslint-plugin": "4.29.3",
+    "@typescript-eslint/parser": "4.29.3",
+    "eslint": "7.32.0",
+    "eslint-plugin-react": "7.24.0",
+    "eslint-plugin-react-hooks": "4.2.0",
+    "typescript": "4.1.5"
+  },
+  "dependencies": {
+    "prop-types": "15.7.2",
+    "react": "16.14.0",
+    "react-dom": "16.14.0"
+  }
+}
